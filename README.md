@@ -6,17 +6,19 @@ PRO/JCL is a comprehensive Job Control Language (JCL) management tool that provi
 
 PRO/JCL for VS Code Offers a modern and easy-to-use user interface (UI) to interact with PRO/JCL on your z/OS system. Through this extension, you can:
 
-* Evaluates JCLs for any syntax errors.
-* Enforces site-specific JCL standards.
-* Provides effective reporting facility.
-* Includes RESTful web services API to automate PRO/JCL scans in a DevOps toolchain.
-* (Upcoming Release) Submits jobs to the mainframe for execution.
-* (Upcoming Release) Validates JCLs on remote machine.
-* (Upcoming Release) Validates multiple JCLs, in user-defined order if specified.
-* (Upcoming Release) Validates input data for popular JCL utility programs.
-* (Upcoming Release) Restructures JCL into a standard and easy-to-read format.
+* Evaluate JCLs for any syntax errors.
+* Enforce site-specific JCL standards.
+* Provide effective reporting facility.
+* Leverage RESTful web services API to automate PRO/JCL scans in a DevOps toolchain.
+* (Upcoming Release) Submit jobs to the mainframe for execution.
+* (Upcoming Release) Validate JCLs on remote machine.
+* (Upcoming Release) Validate multiple JCLs, in user-defined order if specified.
+* (Upcoming Release) Validate input data for popular JCL utility programs.
+* (Upcoming Release) Restructure JCL into a standard and easy-to-read format.
 
-With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View** and summarized in an informational message. The source lines associated with these errors are underlined with a wavy line, in colors that identify their severity. Hovering over one of these lines displays the errors on that line. The relative positions of these errors in the source file are displayed as color dots in the right margin, allowing easy navigation to these errors.
+With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View** and summarized in an informational message, as shown below. The source lines associated with these errors are underlined with a wavy line, in colors that identify their severity. Hovering over one of these lines displays the errors on that line. The relative positions of these errors in the source file are displayed as color dots in the right margin, allowing easy navigation to these errors.
+
+![Result of JCL Scan](docs/images/scan_result_demo_cntl_bindctof.png "Result of JCL Scan")
 
 ## Requirements
 
