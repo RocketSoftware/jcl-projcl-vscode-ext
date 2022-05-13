@@ -18,7 +18,7 @@ PRO/JCL for VS Code Offers a modern and easy-to-use user interface (UI) to inter
 
 With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View** and summarized in an informational message, as shown below. The source lines associated with these errors are underlined with a wavy line, in colors that identify their severity. Hovering over one of these lines displays the errors on that line. The relative positions of these errors in the source file are displayed as color dots in the right margin, allowing easy navigation to these errors.
 
-![Result of JCL Scan](docs/images/scan_result_demo_cntl_bindctof.png "Result of JCL Scan")
+![Result of JCL Scan](resources/scan_result_demo_cntl_bindctof.png "Result of JCL Scan")
 
 ## Requirements
 
