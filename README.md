@@ -1,6 +1,6 @@
 # PRO/JCL for JCL Management
 
-PRO/JCL is a comprehensive Job Control Language (JCL) management tool that provides JCL validation, standards enforcement, and reformatting (upcoming release). It is designed to help developers streamline their JCL workflows on the z/OS mainframe. This extension allows you to access the most important features of PRO/JCL from your Visual Studio Code IDE.
+PRO/JCL is a comprehensive Job Control Language (JCL) management tool that provides JCL validation, standards enforcement, and reformatting. It is designed to help developers streamline their JCL workflows on the z/OS mainframe. This extension allows you to access the most important features of PRO/JCL from your Visual Studio Code IDE.
 
 ## Features
 
@@ -10,71 +10,43 @@ PRO/JCL for VS Code Offers a modern and easy-to-use user interface (UI) to inter
 * Enforces site-specific JCL standards.
 * Provides effective reporting facility.
 * Includes RESTful web services API to automate PRO/JCL scans in a DevOps toolchain.
+* (Upcoming Release) Submits jobs to the mainframe for execution.
 * (Upcoming Release) Validates JCLs on remote machine.
-* (Upcoming Release) Validates multiple JCLs.
-* (Upcoming Release) Validates multiple JCLs in a user-defined order.
+* (Upcoming Release) Validates multiple JCLs, in user-defined order if specified.
+* (Upcoming Release) Validates input data for popular JCL utility programs.
 * (Upcoming Release) Restructures JCL into a standard and easy-to-read format.
-* (Upcoming Release) ubmits jobs to the mainframe for execution.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View** and summarized in an informational message. The source lines associated with these errors are underlined with a wavy line, in colors that identify their severity. Hovering over one of these lines displays the errors on that line. The relative positions of these errors in the source file are displayed as color dots in the right margin, allowing easy navigation to these errors.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+The following are the minimum requirements for **PRO/JCL for VS Code**:
 
-## Extension Settings
+* **Zowe Explorer VS Code Extension**: This extension provides the user interface and services required to authenticate & access resources on the mainframe. Search for **Zowe Explorer** in Marketplace to find out more about this extension and install it.
+* A valid user ID and credential for accessing mainframe resources & services using **Zowe Explorer** in VS Code.
+* **PRO/JCL 3.6.0** or higher version must be installed in the z/OS system. See ***PRO/JCL Installation*** for information on installing PRO/JCL for z/OS.
+* The latest monthly cumulative service for PRO/JCL must be applied.
+* **IBM Liberty Profile Server for z/OS** must be installed & configured to enable PRO/JCL REST Services. See ***Building a Liberty Profile server for ASG-PRO/JCL REST Services*** for details on installing & configuring the Liberty Profile server.
+* **PRO/JCL REST Services** must be installed & operational in the IBM Liberty server. See ***ASG-PRO/JCL® REST Services Quick Start Guide*** for instructions on installing & deploying the PRO/JCL REST Services.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+In addition, the following extensions are ideal companions to the features in **PRO/JCL for VS Code**:
 
-For example:
+* **IBM Z Open Editor**: This extension provides language-sensitive highlighting for JCL files, perfectly complementing the syntax checking & standards validation capabilities in PRO/JCL.
 
-This extension contributes the following settings:
+## Configuration Settings
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+The following configuration properties are available:
+
+* `projcl-vscode.displayOptionsBeforeScan`: Display options to use before PRO/JCL scan commands
+
+The setting is accessible from the user interface by clicking the gear icon (Manage) in the lower left and selecting Settings, or by pressing **Ctrl+,**, followed by entering **PRO/JCL** in the **Search settings** input box.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Be the first! As this is the first release of PRO/JCL for VS Code, there are no reported issues from outside of the development team. You can win the bragging right as the first user to find a non-trivial issue and report to PRO/JCL's support team. All types of issues are welcome, from outright internal errors to future enhancement ideas. All suggestions are considered as proprietary to Rocket Software and will be acknowledged, with permission, in future release notes when adopted.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of PRO/JCL for VS Code, as part of PRO/JCL 3.6.1 release. See **Features** above for a list of features.
