@@ -41,7 +41,7 @@ The following configuration properties are available:
 
 * `projcl-vscode.displayOptionsBeforeScan`: Display options to use before PRO/JCL scan commands
 
-The setting is accessible from the user interface by clicking the gear icon (Manage) in the lower left and selecting Settings, or by pressing **Ctrl+,**, followed by entering **PRO/JCL** in the **Search settings** input box.
+The setting is accessible from the user interface by clicking the gear icon (Manage) in the lower left and selecting Settings, or by pressing **Ctrl+,** (**Ctrl** and **comma** keys pressed at the same time), followed by entering **PRO/JCL** in the **Search settings** input box.
 
 ## Known Issues
 
