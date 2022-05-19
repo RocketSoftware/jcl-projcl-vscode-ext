@@ -4,7 +4,7 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
-## [0.1.0] - 2022-05-31
+## [0.5.0] - 2022-05-31
 ### Added
 * Initial release with following features:
   - Commands to add, update, & delete connection profiles

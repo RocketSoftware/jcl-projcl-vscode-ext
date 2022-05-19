@@ -25,6 +25,7 @@ With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View
 The following are the minimum requirements for **PRO/JCL for VS Code**:
 
 * **Zowe Explorer VS Code Extension**: This extension provides the user interface and services required to authenticate & access resources on the mainframe. Search for **Zowe Explorer** in Marketplace to find out more about this extension and install it.
+* **Connection Profile Using zosmf**: The **Zowe Explorer** must be able to connect to the mainframe using a connection profile of the type **zosmf**. This implies a z/OSMF server must be running on the mainframe and accepting REST API requests.
 * A valid user ID and credential for accessing mainframe resources & services using **Zowe Explorer** in VS Code.
 * **PRO/JCL 3.6.0** or higher version must be installed in the z/OS system. See ***PRO/JCL Installation*** for information on installing PRO/JCL for z/OS.
 * The latest monthly cumulative service for PRO/JCL must be applied.
@@ -49,6 +50,6 @@ Be the first! As this is the first release of PRO/JCL for VS Code, there are no 
 
 ## Release Notes
 
-### 0.0.1
+### 0.5.0
 
 Initial release of PRO/JCL for VS Code, as part of PRO/JCL 3.6.1 release. See **Features** above for a list of features.
