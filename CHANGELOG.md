@@ -4,6 +4,13 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
+## [0.6.0] - 2022-09-20
+### Added
+* Minor release with following features:
+  - Support scanning of JCL from the local file system, e.g., Windows
+  - Submit JCL for execution after successful validation
+  - Use credential from Zowe Explorer for PRO/JCL connection to z/OS
+  
 ## [0.5.0] - 2022-05-31
 ### Added
 * Initial release with following features:
