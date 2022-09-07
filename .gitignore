@@ -4,3 +4,4 @@ node_modules
 logs
 .vscode-test/
 *.vsix
+coverage

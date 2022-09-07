@@ -4,11 +4,11 @@ PRO/JCL is a comprehensive Job Control Language (JCL) management tool that provi
 
 ## Features
 
-PRO/JCL for VS Code Offers a modern and easy-to-use user interface (UI) to interact with PRO/JCL on your z/OS system. Through this extension, you can:
+PRO/JCL for VS Code offers a modern and easy-to-use user interface (UI) to interact with PRO/JCL on your z/OS system. Through this extension, you can:
 
 * Evaluate JCLs for syntax errors.
 * Enforce site-specific JCL standards.
-* Provide effective reporting facility.
+* Provide an effective reporting facility.
 * Leverage RESTful web services API to automate PRO/JCL scans in a DevOps toolchain.
 * Submit jobs to the mainframe for execution.
 * (Upcoming Release) Validate JCLs on remote machine.
@@ -27,7 +27,7 @@ The following are the minimum requirements for **PRO/JCL for VS Code**:
 * **Zowe Explorer VS Code Extension**: This extension provides the user interface and services required to authenticate & access resources on the mainframe. Search for **Zowe Explorer** in Marketplace to find out more about this extension and install it.
 * **Connection Profile Using zosmf**: The **Zowe Explorer** must be able to connect to the mainframe using a connection profile of the type **zosmf**. This implies a z/OSMF server must be running on the mainframe and accepting REST API requests.
 * A valid user ID and credential for accessing mainframe resources & services using **Zowe Explorer** in VS Code.
-* **PRO/JCL 3.6.1** or higher version must be installed in the z/OS system. See ***PRO/JCL Installation*** for information on installing PRO/JCL for z/OS.
+* **PRO/JCL 3.6.1** or higher version must be installed in the z/OS system. See [PRO/JCL Installation](https://docs.rocketsoftware.com/bundle/xej1650909120830/page/cpn1644077472909.html) for information on installing PRO/JCL for z/OS.
 * The latest monthly cumulative service for PRO/JCL must be applied.
 * **IBM Liberty Profile Server for z/OS** must be installed & configured to enable PRO/JCL REST Services. See ***Building a Liberty Profile server for ASG-PRO/JCL REST Services*** for details on installing & configuring the Liberty Profile server.
 * **PRO/JCL REST Services** must be installed & operational in the IBM Liberty server. See ***ASG-PRO/JCL® REST Services Quick Start Guide*** for instructions on installing & deploying the PRO/JCL REST Services.
@@ -42,6 +42,7 @@ The following configuration properties are available:
 
 * `projcl-vscode.displayOptionsBeforeScan`: Display options to use before PRO/JCL scan commands
 * `projcl-vscode.saveListingFromScan`: Save Structured JCL Listing from scan operation in a local file
+* `projcl-vscode.saveListingsIntoLocation`: Default location is .projcl/JclListings folder in user’s home directory
 
 The setting is accessible from the user interface by clicking the gear icon (Manage) in the lower left and selecting Settings, or by pressing **Ctrl+,** (**Ctrl** and **comma** keys pressed at the same time), followed by entering **PRO/JCL** in the **Search settings** input box.
 
@@ -54,6 +55,11 @@ For full documentation, visit the [Rocket Software PRO/JCL documentation](https:
 Be the first! As this is the first public release of PRO/JCL for VS Code, there are no reported issues from outside of the development team. You can win the bragging right as the first user to find a non-trivial issue and report to PRO/JCL's support team. All types of issues are welcome, from outright internal errors to future enhancement ideas. All suggestions are considered as proprietary to Rocket Software and will be acknowledged, with permission, in future release notes when adopted.
 
 ## Release Notes
+
+### 0.6.1
+
+* Add Options in Effect in listing if Include Summary is selected in scan profile
+* Save Structured JCL Listing in user specified location
 
 ### 0.6.0
 
