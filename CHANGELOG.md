@@ -7,6 +7,8 @@ Contact Rocket Software Product Management for upcoming release plans.
 ## [0.6.1] - 2022-09-06
 ### Added
 * Minor release with following features:
+### Added
+* Minor release with following features:
   - Options in Effect in listing if Include Summary is selected in scan profile
   - Save Structured JCL Listing in user specified location
   
