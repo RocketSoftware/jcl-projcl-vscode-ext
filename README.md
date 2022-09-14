@@ -24,7 +24,7 @@ With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View
 
 The following are the minimum requirements for **PRO/JCL for VS Code**:
 
-* **Zowe Explorer VS Code Extension**: This extension provides the user interface and services required to authenticate & access resources on the mainframe. Search for **Zowe Explorer** in Marketplace to find out more about this extension and install it.
+* **Zowe Explorer VS Code Extension**: This extension provides the user interface and services required to authenticate & access resources (datasets and jobs) on the mainframe using PRO/JCL extension. Search for **Zowe Explorer** in Marketplace to find out more about this extension and install it.
 * **Connection Profile Using zosmf**: The **Zowe Explorer** must be able to connect to the mainframe using a connection profile of the type **zosmf**. This implies a z/OSMF server must be running on the mainframe and accepting REST API requests.
 * A valid user ID and credential for accessing mainframe resources & services using **Zowe Explorer** in VS Code.
 * **PRO/JCL 3.6.1** or higher version must be installed in the z/OS system. See [PRO/JCL Installation](https://docs.rocketsoftware.com/bundle/xej1650909120830/page/cpn1644077472909.html) for information on installing PRO/JCL for z/OS.
@@ -40,8 +40,8 @@ In addition, the following extensions are ideal companions to the features in **
 
 The following configuration properties are available:
 
-* `projcl-vscode.displayOptionsBeforeScan`: Display options to use before PRO/JCL scan commands
-* `projcl-vscode.saveListingFromScan`: Save Structured JCL Listing from scan operation in a local file
+* `projcl-vscode.displayOptions`: Display options to use before PRO/JCL operations
+* `projcl-vscode.saveListings`: Save Structured JCL Listing from PRO/JCL operations
 * `projcl-vscode.saveListingsIntoLocation`: Default location is .projcl/JclListings folder in user’s home directory
 
 The setting is accessible from the user interface by clicking the gear icon (Manage) in the lower left and selecting Settings, or by pressing **Ctrl+,** (**Ctrl** and **comma** keys pressed at the same time), followed by entering **PRO/JCL** in the **Search settings** input box.
@@ -54,7 +54,19 @@ For full documentation, visit the [Rocket Software PRO/JCL documentation](https:
 
 Be the first! As this is the first public release of PRO/JCL for VS Code, there are no reported issues from outside of the development team. You can win the bragging right as the first user to find a non-trivial issue and report to PRO/JCL's support team. All types of issues are welcome, from outright internal errors to future enhancement ideas. All suggestions are considered as proprietary to Rocket Software and will be acknowledged, with permission, in future release notes when adopted.
 
+## Technical Assistance and Support
+
+The PRO/JCL extension is made available to customers on the Visual Studio Code Marketplace. If you are on active support for PRO/JCL, you can get technical assistance and support from ASG/Rocket Customer support team using [Support](https://www.asg.com/en/Support/Access-Login.aspx).
+
+Note: The PRO/JCL extension uses the Output view to report its internal issues & errors. To view the messages specific to the PRO/JCL extension and not related to Zowe Explorer, click the dropdown in the Output view and select PRO/JCL.
+
+Kindly report any issue encountered in the extension to ASG/Rocket Customer support team.
+
 ## Release Notes
+
+### 1.0.1
+
+* Ensure PRO/JCL Extension meets or exceeds the criteria for **Zowe V2 Conformance - Zowe Explorer for Visual Studio Code Zowe**.
 
 ### 0.6.1
 

@@ -4,9 +4,11 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
-## [0.6.1] - 2022-09-06
+## [1.0.1] - 2022-09-14
 ### Added
-* Minor release with following features:
+* Ensure PRO/JCL Extension meets or exceeds the criteria for **Zowe V2 Conformance - Zowe Explorer for Visual Studio Code Zowe**.
+
+## [0.6.1] - 2022-09-06
 ### Added
 * Minor release with following features:
   - Options in Effect in listing if Include Summary is selected in scan profile
