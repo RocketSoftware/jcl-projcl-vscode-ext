@@ -64,6 +64,17 @@ Kindly report any issue encountered in the extension to ASG/Rocket Customer supp
 
 ## Release Notes
 
+### 1.0.3
+
+* Enhanced logging to aid field diagnostics
+* Updates to product logos to reflect new branding for Rocket Software
+
+### 1.0.2
+
+* Support reformatting of JCL using rules defined in PRO/JCL for z/OS
+* Validation of input data for common JCL utility programs
+* Improved validation of remote machine credential used in PRO/JCL REST API
+
 ### 1.0.1
 
 * Ensure PRO/JCL Extension meets or exceeds the criteria for **Zowe V2 Conformance - Zowe Explorer for Visual Studio Code Zowe**.
