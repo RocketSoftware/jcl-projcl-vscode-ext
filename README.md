@@ -11,10 +11,10 @@ PRO/JCL for VS Code offers a modern and easy-to-use user interface (UI) to inter
 * Provide an effective reporting facility.
 * Leverage RESTful web services API to automate PRO/JCL scans in a DevOps toolchain.
 * Submit jobs to the mainframe for execution.
+* Validate input data for popular JCL utility programs.
+* Restructure JCL into a standard and easy-to-read format.
 * (Upcoming Release) Validate JCLs on remote machine.
 * (Upcoming Release) Validate multiple JCLs, in user-defined order if specified.
-* (Upcoming Release) Validate input data for popular JCL utility programs.
-* (Upcoming Release) Restructure JCL into a standard and easy-to-read format.
 
 With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View** and summarized in an informational message, as shown below. The source lines associated with these errors are underlined with a wavy line, in colors that identify their severity. Hovering over one of these lines displays the errors on that line. The relative positions of these errors in the source file are displayed as color dots in the right margin, allowing easy navigation to these errors.
 
@@ -43,6 +43,7 @@ The following configuration properties are available:
 * `projcl-vscode.displayOptions`: Display options to use before PRO/JCL operations
 * `projcl-vscode.saveListings`: Save Structured JCL Listing from PRO/JCL operations
 * `projcl-vscode.saveListingsIntoLocation`: Default location is .projcl/JclListings folder in user’s home directory
+* `projcl-vscode.validateBeforeReformattingJCL`: Validate JCL before Reformatting
 
 The setting is accessible from the user interface by clicking the gear icon (Manage) in the lower left and selecting Settings, or by pressing **Ctrl+,** (**Ctrl** and **comma** keys pressed at the same time), followed by entering **PRO/JCL** in the **Search settings** input box.
 
@@ -52,7 +53,7 @@ For full documentation, visit the [Rocket Software PRO/JCL documentation](https:
 
 ## Known Issues
 
-Be the first! As this is the first public release of PRO/JCL for VS Code, there are no reported issues from outside of the development team. You can win the bragging right as the first user to find a non-trivial issue and report to PRO/JCL's support team. All types of issues are welcome, from outright internal errors to future enhancement ideas. All suggestions are considered as proprietary to Rocket Software and will be acknowledged, with permission, in future release notes when adopted.
+Win the bragging right as one of the first users to find a non-trivial issue and report to PRO/JCL's support team. All types of issues are welcome, from outright internal errors to future enhancement ideas. All suggestions are considered as proprietary to Rocket Software and will be acknowledged, with permission, in future release notes when adopted.
 
 ## Technical Assistance and Support
 
@@ -64,7 +65,7 @@ Kindly report any issue encountered in the extension to ASG/Rocket Customer supp
 
 ## Release Notes
 
-### 1.0.3
+### 1.0.4
 
 * Enhanced logging to aid field diagnostics
 * Updates to product logos to reflect new branding for Rocket Software
