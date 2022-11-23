@@ -4,7 +4,7 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
-## [1.0.4] - 2022-11-22
+## [1.0.5] - 2022-11-22
 ### Added
 * Minor release with following features:
   - Enhanced logging to aid field diagnostics

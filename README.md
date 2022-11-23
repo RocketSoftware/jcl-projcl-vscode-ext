@@ -65,7 +65,7 @@ Kindly report any issue encountered in the extension to ASG/Rocket Customer supp
 
 ## Release Notes
 
-### 1.0.4
+### 1.0.5
 
 * Enhanced logging to aid field diagnostics
 * Updates to product logos to reflect new branding for Rocket Software
