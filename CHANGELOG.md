@@ -4,7 +4,7 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
-## [1.0.5] - 2022-11-22
+## [1.0.6] - 2022-11-28
 ### Added
 * Minor release with following features:
   - Enhanced logging to aid field diagnostics
@@ -15,7 +15,6 @@ Contact Rocket Software Product Management for upcoming release plans.
 * Minor release with following features:
   - Support reformatting of JCL using rules defined in PRO/JCL for z/OS
   - Validation of input data for common JCL utility programs
-  - Improved validation of remote machine credential used in PRO/JCL REST API
 
 ## [1.0.1] - 2022-09-14
 ### Added
