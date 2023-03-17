@@ -44,6 +44,7 @@ The following configuration properties are available:
 * `projcl-vscode.saveListings`: Save Structured JCL Listing from PRO/JCL operations
 * `projcl-vscode.saveListingsIntoLocation`: Default location is .projcl/JclListings folder in user’s home directory
 * `projcl-vscode.validateBeforeReformattingJCL`: Validate JCL before Reformatting
+* `projcl-vscode.workFileHLQ`: HLQ used for PRO/JCL work files on z/OS
 
 The setting is accessible from the user interface by clicking the gear icon (Manage) in the lower left and selecting Settings, or by pressing **Ctrl+,** (**Ctrl** and **comma** keys pressed at the same time), followed by entering **PRO/JCL** in the **Search settings** input box.
 
@@ -64,6 +65,13 @@ Note: The PRO/JCL extension uses the Output view to report its internal issues &
 Kindly report any issue encountered in the extension to ASG/Rocket Customer support team.
 
 ## Release Notes
+
+### 1.0.7
+
+* Support user-specified HLQ for creation of work files on z/OS
+* Support CSRF_SWITCH ON in z/OSMF configuration settings
+* Support '#' in RTS and reformat member names
+* Improvement in reporting of server errors
 
 ### 1.0.6
 

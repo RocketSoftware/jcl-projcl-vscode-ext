@@ -4,6 +4,14 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
+## [1.0.7] - 2023-03-17
+### Added
+* Minor release with following enhancements:
+  - Support user-specified HLQ for creation of work files on z/OS
+  - Support CSRF_SWITCH ON in z/OSMF configuration settings
+  - Support '#' in RTS and reformat member names
+  - Improvement in reporting of server errors
+
 ## [1.0.6] - 2022-11-28
 ### Added
 * Minor release with following features:
