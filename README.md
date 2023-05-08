@@ -29,8 +29,8 @@ The following are the minimum requirements for **PRO/JCL for VS Code**:
 * A valid user ID and credential for accessing mainframe resources & services using **Zowe Explorer** in VS Code.
 * **PRO/JCL 3.6.1** or higher version must be installed in the z/OS system. See [PRO/JCL Installation](https://docs.rocketsoftware.com/bundle/uyk1658142647025/page/cpn1644077472909.html) for information on installing PRO/JCL for z/OS.
 * The latest monthly cumulative service for PRO/JCL must be applied.
-* **IBM Liberty Profile Server for z/OS** must be installed & configured to enable PRO/JCL REST Services. See [Building a Liberty Profile server for ASG-PRO/JCL REST Services](https://docs.rocketsoftware.com/bundle/uyk1658142647025/page/ggy1660717412627.html) for details on installing & configuring the Liberty Profile server.
-* **PRO/JCL REST Services** must be installed & operational in the IBM Liberty server. See [ASG-PRO/JCL® REST Services Quick Start Guide](https://docs.rocketsoftware.com/bundle/uyk1658142647025/page/xwh1660717381691.html) for instructions on installing & deploying the PRO/JCL REST Services.
+* **IBM Liberty Profile Server for z/OS** must be installed & configured to enable PRO/JCL REST Services. See [Building a Liberty Profile server for PRO/JCL REST Services](https://docs.rocketsoftware.com/bundle/uyk1658142647025/page/ggy1660717412627.html) for details on installing & configuring the Liberty Profile server.
+* **PRO/JCL REST Services** must be installed & operational in the IBM Liberty server. See [PRO/JCL® REST Services Quick Start Guide](https://docs.rocketsoftware.com/bundle/uyk1658142647025/page/xwh1660717381691.html) for instructions on installing & deploying the PRO/JCL REST Services.
 
 In addition, the following extensions are ideal companions to the features in **PRO/JCL for VS Code**:
 
@@ -58,13 +58,20 @@ Win the bragging right as one of the first users to find a non-trivial issue and
 
 ## Technical Assistance and Support
 
-The PRO/JCL extension is made available to customers on the Visual Studio Code Marketplace. If you are on active support for PRO/JCL, you can get technical assistance and support from ASG/Rocket Customer support team using [Support](https://www.asg.com/en/Support/Access-Login.aspx).
+The PRO/JCL extension is made available to customers on the Visual Studio Code Marketplace. If you are on active support for PRO/JCL, you can get **Technical Support** using [Support](https://my.rocketsoftware.com/RocketCommunity).
 
 Note: The PRO/JCL extension uses the Output view to report its internal issues & errors. To view the messages specific to the PRO/JCL extension and not related to Zowe Explorer, click the dropdown in the Output view and select PRO/JCL.
 
-Kindly report any issue encountered in the extension to ASG/Rocket Customer support team.
+Kindly report any issue encountered in the extension to **Technical Support**.
 
 ## Release Notes
+
+### 1.0.8
+
+* Rebranding of ASG as Rocket Software
+* Update links for support & documentation
+* Add input type at top of saved listing
+* Validate length of JMP parameter
 
 ### 1.0.7
 

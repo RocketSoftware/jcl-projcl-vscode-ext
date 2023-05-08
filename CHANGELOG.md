@@ -4,6 +4,14 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
+## [1.0.8] - 2023-05-15
+### Added
+* Minor release with following enhancements:
+  - Rebranding of ASG as Rocket Software
+  - Update links for support & documentation
+  - Add input type at top of saved listing
+  - Validate length of JMP parameter
+
 ## [1.0.7] - 2023-03-17
 ### Added
 * Minor release with following enhancements:
