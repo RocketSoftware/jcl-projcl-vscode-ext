@@ -4,6 +4,10 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
+## [1.0.9] - 2023-06-15
+### Updated
+* Documentation links
+
 ## [1.0.8] - 2023-05-15
 ### Added
 * Minor release with following enhancements:
