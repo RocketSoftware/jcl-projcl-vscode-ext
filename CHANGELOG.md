@@ -4,6 +4,13 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
+## [1.1.0] - 2024-09-16
+### Added
+* Minor release with following enhancements:
+  - JCL validation on remote z/OS systems
+  - JCL statement completion & dataset name proposals
+  - Provide commonly used JCL fragments as hover tips
+
 ## [1.0.9] - 2023-06-15
 ### Updated
 * Documentation links

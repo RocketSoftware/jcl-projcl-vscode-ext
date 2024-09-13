@@ -13,12 +13,28 @@ PRO/JCL for VS Code offers a modern and easy-to-use user interface (UI) to inter
 * Submit jobs to the mainframe for execution.
 * Validate input data for popular JCL utility programs.
 * Restructure JCL into a standard and easy-to-read format.
-* (Upcoming Release) Validate JCLs on remote machine.
+* (New) Validate JCLs on remote machines.
+* (New) Propose commonly used JCL code snippets as you type.
+* (New) Suggest dataset names based on JCL in editor.
 * (Upcoming Release) Validate multiple JCLs, in user-defined order if specified.
 
 With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View** and summarized in an informational message, as shown below. The source lines associated with these errors are underlined with a wavy line, in colors that identify their severity. Hovering over one of these lines displays the errors on that line. The relative positions of these errors in the source file are displayed as color dots in the right margin, allowing easy navigation to these errors.
 
-![Result of JCL Scan](resources/animated_scan_result_demo.gif "Result of JCL Scan")
+![Result of JCL Scan](client/resources/animated_scan_result_demo.gif "Result of JCL Scan")
+
+Enhancements added in the latest release of **PRO/JCL for VS Code** include the following:
+
+* JCL validation on a remote machine
+
+![JCL Scan on a Remote Machine](client/resources/projcl_vscode_remote_scan.gif "JCL Scan on a Remote Machine")
+
+* Auto code suggestions in JCL editor
+
+![JCL Code Snippets](client/resources/projcl_vscode_code_suggestion.gif "JCL Code Snippets")
+
+* Context-sensitive dataset name proposal
+
+![Context-Sensitive DSN Proposal](client/resources/projcl_vscode_dsn_proposal.gif "Context-Sensitive DSN Proposal")
 
 ## Requirements
 
@@ -28,7 +44,7 @@ The following are the minimum requirements for **PRO/JCL for VS Code**:
 * **Connection Profile Using zosmf**: The **Zowe Explorer** must be able to connect to the mainframe using a connection profile of the type **zosmf**. This implies a z/OSMF server must be running on the mainframe and accepting REST API requests.
 * A valid user ID and credential for accessing mainframe resources & services using **Zowe Explorer** in VS Code.
 * **PRO/JCL 3.6.1** or higher version must be installed in the z/OS system. See [PRO/JCL Installation](https://docs.rocketsoftware.com/bundle/projcl_364/page/qgk1680148808788.html) for information on installing PRO/JCL for z/OS.
-* The latest monthly cumulative service for PRO/JCL must be applied.
+* The latest cumulative service for PRO/JCL must be applied.
 * **IBM Liberty Profile Server for z/OS** must be installed & configured to enable PRO/JCL REST Services. See [Building a Liberty Profile server for PRO/JCL REST Services](https://docs.rocketsoftware.com/bundle/projcl_364/page/reb1680014883070.html) for details on installing & configuring the Liberty Profile server.
 * **PRO/JCL REST Services** must be installed & operational in the IBM Liberty server. See [PRO/JCL® REST Services Quick Start Guide](https://docs.rocketsoftware.com/bundle/projcl_364/page/htd1680014857177.html) for instructions on installing & deploying the PRO/JCL REST Services.
 
@@ -60,11 +76,17 @@ Win the bragging right as one of the first users to find a non-trivial issue and
 
 The PRO/JCL extension is made available to customers on the Visual Studio Code Marketplace. If you are on active support for PRO/JCL, you can get **Technical Support** using [Support](https://my.rocketsoftware.com/RocketCommunity).
 
-Note: The PRO/JCL extension uses the Output view to report its internal issues & errors. To view the messages specific to the PRO/JCL extension and not related to Zowe Explorer, click the dropdown in the Output view and select PRO/JCL.
+Note: The PRO/JCL extension uses the **OUTPUT View** to report its internal issues & errors. To view the messages specific to the PRO/JCL extension and not related to Zowe Explorer, click the dropdown in the Output view and select PRO/JCL.
 
 Kindly report any issue encountered in the extension to **Technical Support**.
 
 ## Release Notes
+
+### 1.1.0
+
+* Support JCL validation on remote systems as defined in PRO/JCL for z/OS
+* Provide JCL statement completion & dataset name proposals in edit session
+* Provide commonly used JCL fragments as auto suggestions in edit session
 
 ### 1.0.9
 
