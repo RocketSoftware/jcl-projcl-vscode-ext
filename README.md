@@ -76,8 +76,6 @@ Win the bragging right as one of the first users to find a non-trivial issue and
 
 The PRO/JCL extension is made available to customers on the Visual Studio Code Marketplace. If you are on active support for PRO/JCL, you can get **Technical Support** using [Support](https://my.rocketsoftware.com/RocketCommunity).
 
-Note: The PRO/JCL extension uses the **OUTPUT View** to report its internal issues & errors. To view the messages specific to the PRO/JCL extension and not related to Zowe Explorer, click the dropdown in the Output view and select PRO/JCL.
-
 Kindly report any issue encountered in the extension to **Technical Support**.
 
 ## Release Notes
