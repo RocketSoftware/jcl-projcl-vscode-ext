@@ -4,6 +4,14 @@
 
 Contact Rocket Software Product Management for upcoming release plans.
 
+## [1.1.1] - 2025-10-10
+### Added
+* Minor release with following enhancements:
+  - JCL explanation using user selected AI language models
+  - Context menu for code explanation
+  - Configuration setting for AI features
+  - Support for Zowe Explorer v3.x
+
 ## [1.1.0] - 2024-09-16
 ### Added
 * Minor release with following enhancements:

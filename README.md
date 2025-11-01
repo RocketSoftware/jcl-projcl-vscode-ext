@@ -1,6 +1,20 @@
+[//]: # "(C) 2022-2025 Rocket Software, Inc. or its affiliates."
+[//]: # "ROCKET SOFTWARE, INC. CONFIDENTIAL"
 # PRO/JCL for JCL Management
 
 PRO/JCL is a comprehensive Job Control Language (JCL) management tool that provides JCL validation, standards enforcement, and reformatting. It is designed to help developers streamline their JCL workflows on the z/OS mainframe. This extension allows you to access the most important features of PRO/JCL from your Visual Studio Code IDE.
+
+## **What's New?**
+
+###  AI Enhanced Development *(New in v1.1.1)*
+
+- **Intelligent JCL Explanations:** Natural language interpretation using your choice of AI models  
+- **Configurable AI Integration:** Full control over AI feature visibility and model selection  
+- **Multi Model Support:** Compatible with leading AI language models
+- **Seamless IDE Integration:** Works directly within VS Code for a smooth workflow
+- **Enhanced Productivity:** Quickly understand complex JCL, reducing learning curve and errors
+
+**Quick Start:** Install → Right click JCL → Select "Explain Documentation" or "Explain Selection" → Instant Understanding
 
 ## Features
 
@@ -13,10 +27,10 @@ PRO/JCL for VS Code offers a modern and easy-to-use user interface (UI) to inter
 * Submit jobs to the mainframe for execution.
 * Validate input data for popular JCL utility programs.
 * Restructure JCL into a standard and easy-to-read format.
-* (New) Validate JCLs on remote machines.
-* (New) Propose commonly used JCL code snippets as you type.
-* (New) Suggest dataset names based on JCL in editor.
-* (Upcoming Release) Validate multiple JCLs, in user-defined order if specified.
+* Validate JCLs on remote machines.
+* Propose commonly used JCL code snippets as you type.
+* Suggest dataset names based on JCL in editor.
+* Explain JCL using open source AI models of your choice
 
 With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View** and summarized in an informational message, as shown below. The source lines associated with these errors are underlined with a wavy line, in colors that identify their severity. Hovering over one of these lines displays the errors on that line. The relative positions of these errors in the source file are displayed as color dots in the right margin, allowing easy navigation to these errors.
 
@@ -56,6 +70,7 @@ In addition, the following extensions are ideal companions to the features in **
 
 The following configuration properties are available:
 
+* `projcl-vscode.AIFeatures`: Enable AI features in PRO/JCL
 * `projcl-vscode.displayOptions`: Display options to use before PRO/JCL operations
 * `projcl-vscode.saveListings`: Save Structured JCL Listing from PRO/JCL operations
 * `projcl-vscode.saveListingsIntoLocation`: Default location is .projcl/JclListings folder in user’s home directory
@@ -79,6 +94,13 @@ The PRO/JCL extension is made available to customers on the Visual Studio Code M
 Kindly report any issue encountered in the extension to **Technical Support**.
 
 ## Release Notes
+
+### 1.1.1
+
+* JCL explanation using user selected AI language models
+* Context menus for code explanation
+* Configuration setting for hiding AI features
+* Support for Zowe Explorer v3.x
 
 ### 1.1.0
 
