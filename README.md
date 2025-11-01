@@ -57,10 +57,10 @@ The following are the minimum requirements for **PRO/JCL for VS Code**:
 * **Zowe Explorer VS Code Extension**: This extension provides the user interface and services required to authenticate & access resources (datasets and jobs) on the mainframe using PRO/JCL extension. Search for **Zowe Explorer** in Marketplace to find out more about this extension and install it.
 * **Connection Profile Using zosmf**: The **Zowe Explorer** must be able to connect to the mainframe using a connection profile of the type **zosmf**. This implies a z/OSMF server must be running on the mainframe and accepting REST API requests.
 * A valid user ID and credential for accessing mainframe resources & services using **Zowe Explorer** in VS Code.
-* **PRO/JCL 3.6.1** or higher version must be installed in the z/OS system. See [PRO/JCL Installation](https://docs.rocketsoftware.com/bundle/projcl_364/page/qgk1680148808788.html) for information on installing PRO/JCL for z/OS.
+* **PRO/JCL 3.6.1** or higher version must be installed in the z/OS system. See [PRO/JCL Installation](https://docs.rocketsoftware.com/bundle/projcl_365/page/gnk1715680827278.html) for information on installing PRO/JCL for z/OS.
 * The latest cumulative service for PRO/JCL must be applied.
-* **IBM Liberty Profile Server for z/OS** must be installed & configured to enable PRO/JCL REST Services. See [Building a Liberty Profile server for PRO/JCL REST Services](https://docs.rocketsoftware.com/bundle/projcl_364/page/reb1680014883070.html) for details on installing & configuring the Liberty Profile server.
-* **PRO/JCL REST Services** must be installed & operational in the IBM Liberty server. See [PRO/JCL® REST Services Quick Start Guide](https://docs.rocketsoftware.com/bundle/projcl_364/page/htd1680014857177.html) for instructions on installing & deploying the PRO/JCL REST Services.
+* **IBM Liberty Profile Server for z/OS** must be installed & configured to enable PRO/JCL REST Services. See [Building a Liberty Profile server for PRO/JCL REST Services](https://docs.rocketsoftware.com/bundle/projcl_365/page/gre1726573237164.html) for details on installing & configuring the Liberty Profile server.
+* **PRO/JCL REST Services** must be installed & operational in the IBM Liberty server. See [PRO/JCL® REST Services Quick Start Guide](https://docs.rocketsoftware.com/bundle/projcl_365/page/htd1680014857177.html) for instructions on installing & deploying the PRO/JCL REST Services.
 
 In addition, the following extensions are ideal companions to the features in **PRO/JCL for VS Code**:
 
@@ -81,7 +81,7 @@ The setting is accessible from the user interface by clicking the gear icon (Man
 
 ## Documentation
 
-For full documentation, visit the [Rocket Software PRO/JCL documentation](https://docs.rocketsoftware.com/bundle/projcl_364/page/fok1680013680554.html) site.
+For full documentation, visit the [Rocket Software PRO/JCL documentation](https://docs.rocketsoftware.com/bundle/projcl_365/page/taj1722436938506.html) site.
 
 ## Known Issues
 
