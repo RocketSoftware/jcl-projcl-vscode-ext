@@ -38,6 +38,10 @@ With PRO/JCL for VS Code, errors in JCL are clearly described in **PROBLEMS View
 
 Enhancements added in the latest release of **PRO/JCL for VS Code** include the following:
 
+* AI assisted code explanation
+
+![AI assisted code explanation](client/resources/projcl_vscode_code_explanation.gif "AI Assisted Code Explanation")
+
 * JCL validation on a remote machine
 
 ![JCL Scan on a Remote Machine](client/resources/projcl_vscode_remote_scan.gif "JCL Scan on a Remote Machine")
